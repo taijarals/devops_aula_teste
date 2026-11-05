@@ -2,6 +2,11 @@ name: Pipeline do Boletim
 
 on: [push, pull_request]
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 jobs:
   testes:
     runs-on: ubuntu-latest
