@@ -11,4 +11,4 @@ def situacao(media):
     elif media >= 5:
         return "Recuperação"
     else:
-        return "Reprovado"
+        return "Reprovado" #reprovado
